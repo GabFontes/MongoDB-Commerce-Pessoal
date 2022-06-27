@@ -1,0 +1,1 @@
+db.produtos.findOne({ nome: "Big Mac" }, { nome: 1, vendidos: 1, _id: false });
